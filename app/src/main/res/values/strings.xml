@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">极速翻译</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_glossary">GlossaryActivity</string>
+    <string name="title_activity_translate_message">TranslateMessageActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+</resources>

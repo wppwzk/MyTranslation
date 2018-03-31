@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_action_translate"
+            android:title="翻译" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_action_favorite"
+            android:title="生词本" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_action_message"
+            android:title="短信翻译" />
+        <item
+            android:title="" />
+        <item
+            android:title="" />
+
+    </group>
+
+    <item android:title="设置">
+       <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_action_setting"
+                android:title="设置" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_action_about"
+                android:title="关于" />
+        </menu>
+    </item>
+
+</menu>
